@@ -5,7 +5,7 @@ Provides translations for 6 languages:
   English, Español, Français, Deutsch, 中文, 日本語
 
 Usage:
-    from .translations import TRANSLATIONS, get_text
+    from translations import TRANSLATIONS, get_text
     text = get_text('open', lang='English')
 """
 

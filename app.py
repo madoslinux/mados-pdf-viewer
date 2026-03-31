@@ -16,8 +16,8 @@ gi.require_version("Gdk", "3.0")
 gi.require_version("Poppler", "0.18")
 from gi.repository import Gtk, Gdk, GdkPixbuf, GLib, Poppler
 
-from .renderer import PDFDocument, PageRenderer
-from .annotations import (
+from renderer import PDFDocument, PageRenderer
+from annotations import (
     TextAnnotation,
     SignaturePlacement,
     SignaturePad,
@@ -26,8 +26,8 @@ from .annotations import (
     FormFieldManager,
     FormFieldDialog,
 )
-from .translations import get_text, detect_system_language, DEFAULT_LANGUAGE
-from .theme import apply_theme, hex_to_rgb_float
+from translations import get_text, detect_system_language, DEFAULT_LANGUAGE
+from theme import apply_theme, hex_to_rgb_float
 
 # ── Constants ─────────────────────────────────────────────────────────────────
 

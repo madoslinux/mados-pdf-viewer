@@ -18,8 +18,8 @@ import gi
 gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk, Gdk, GLib
 
-from .theme import hex_to_rgb_float, NORD_FROST, NORD_POLAR_NIGHT, NORD_SNOW_STORM
-from .translations import get_text
+from theme import hex_to_rgb_float, NORD_FROST, NORD_POLAR_NIGHT, NORD_SNOW_STORM
+from translations import get_text
 
 # ── Signature storage directory ───────────────────────────────────────────────
 
